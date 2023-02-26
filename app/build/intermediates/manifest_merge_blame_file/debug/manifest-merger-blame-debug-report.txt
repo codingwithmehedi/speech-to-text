@@ -1,0 +1,113 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="developers.world.voicereader"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->D:\AndroidProject\VoiceReader\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->D:\AndroidProject\VoiceReader\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+11-->D:\AndroidProject\VoiceReader\app\src\main\AndroidManifest.xml:5:5-71
+11-->D:\AndroidProject\VoiceReader\app\src\main\AndroidManifest.xml:5:22-68
+12
+13    <queries>
+13-->D:\AndroidProject\VoiceReader\app\src\main\AndroidManifest.xml:27:5-31:15
+14        <intent>
+14-->D:\AndroidProject\VoiceReader\app\src\main\AndroidManifest.xml:28:9-30:18
+15            <action android:name="android.speech.RecognitionService" />
+15-->D:\AndroidProject\VoiceReader\app\src\main\AndroidManifest.xml:29:13-72
+15-->D:\AndroidProject\VoiceReader\app\src\main\AndroidManifest.xml:29:21-69
+16        </intent>
+17    </queries>
+18
+19    <permission
+19-->[androidx.core:core:1.9.0] C:\Users\MEHEDI\.gradle\caches\transforms-3\a4522fe6b275a4534bfc0eadc1a8e0f8\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+20        android:name="developers.world.voicereader.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+20-->[androidx.core:core:1.9.0] C:\Users\MEHEDI\.gradle\caches\transforms-3\a4522fe6b275a4534bfc0eadc1a8e0f8\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+21        android:protectionLevel="signature" />
+21-->[androidx.core:core:1.9.0] C:\Users\MEHEDI\.gradle\caches\transforms-3\a4522fe6b275a4534bfc0eadc1a8e0f8\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+22
+23    <uses-permission android:name="developers.world.voicereader.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+23-->[androidx.core:core:1.9.0] C:\Users\MEHEDI\.gradle\caches\transforms-3\a4522fe6b275a4534bfc0eadc1a8e0f8\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+23-->[androidx.core:core:1.9.0] C:\Users\MEHEDI\.gradle\caches\transforms-3\a4522fe6b275a4534bfc0eadc1a8e0f8\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+24
+25    <application
+25-->D:\AndroidProject\VoiceReader\app\src\main\AndroidManifest.xml:6:5-25:19
+26        android:allowBackup="true"
+26-->D:\AndroidProject\VoiceReader\app\src\main\AndroidManifest.xml:7:9-35
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.9.0] C:\Users\MEHEDI\.gradle\caches\transforms-3\a4522fe6b275a4534bfc0eadc1a8e0f8\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+28        android:dataExtractionRules="@xml/data_extraction_rules"
+28-->D:\AndroidProject\VoiceReader\app\src\main\AndroidManifest.xml:8:9-65
+29        android:debuggable="true"
+30        android:extractNativeLibs="false"
+31        android:fullBackupContent="@xml/backup_rules"
+31-->D:\AndroidProject\VoiceReader\app\src\main\AndroidManifest.xml:9:9-54
+32        android:icon="@mipmap/ic_launcher"
+32-->D:\AndroidProject\VoiceReader\app\src\main\AndroidManifest.xml:10:9-43
+33        android:label="@string/app_name"
+33-->D:\AndroidProject\VoiceReader\app\src\main\AndroidManifest.xml:11:9-41
+34        android:supportsRtl="true"
+34-->D:\AndroidProject\VoiceReader\app\src\main\AndroidManifest.xml:12:9-35
+35        android:testOnly="true"
+36        android:theme="@style/Theme.VoiceReader" >
+36-->D:\AndroidProject\VoiceReader\app\src\main\AndroidManifest.xml:13:9-49
+37        <activity
+37-->D:\AndroidProject\VoiceReader\app\src\main\AndroidManifest.xml:15:9-23:20
+38            android:name="developers.world.voicereader.HomeActivity"
+38-->D:\AndroidProject\VoiceReader\app\src\main\AndroidManifest.xml:16:13-41
+39            android:exported="true" >
+39-->D:\AndroidProject\VoiceReader\app\src\main\AndroidManifest.xml:17:13-36
+40            <intent-filter>
+40-->D:\AndroidProject\VoiceReader\app\src\main\AndroidManifest.xml:18:13-22:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->D:\AndroidProject\VoiceReader\app\src\main\AndroidManifest.xml:19:17-69
+41-->D:\AndroidProject\VoiceReader\app\src\main\AndroidManifest.xml:19:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->D:\AndroidProject\VoiceReader\app\src\main\AndroidManifest.xml:21:17-77
+43-->D:\AndroidProject\VoiceReader\app\src\main\AndroidManifest.xml:21:27-74
+44            </intent-filter>
+45        </activity>
+46
+47        <uses-library
+47-->[androidx.window:window:1.0.0] C:\Users\MEHEDI\.gradle\caches\transforms-3\c3b734b042e3e1a43ac97bcab800c2b5\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+48            android:name="androidx.window.extensions"
+48-->[androidx.window:window:1.0.0] C:\Users\MEHEDI\.gradle\caches\transforms-3\c3b734b042e3e1a43ac97bcab800c2b5\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+49            android:required="false" />
+49-->[androidx.window:window:1.0.0] C:\Users\MEHEDI\.gradle\caches\transforms-3\c3b734b042e3e1a43ac97bcab800c2b5\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+50        <uses-library
+50-->[androidx.window:window:1.0.0] C:\Users\MEHEDI\.gradle\caches\transforms-3\c3b734b042e3e1a43ac97bcab800c2b5\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+51            android:name="androidx.window.sidecar"
+51-->[androidx.window:window:1.0.0] C:\Users\MEHEDI\.gradle\caches\transforms-3\c3b734b042e3e1a43ac97bcab800c2b5\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+52            android:required="false" />
+52-->[androidx.window:window:1.0.0] C:\Users\MEHEDI\.gradle\caches\transforms-3\c3b734b042e3e1a43ac97bcab800c2b5\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+53
+54        <provider
+54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\MEHEDI\.gradle\caches\transforms-3\c41b4469453a8a9f9613e5cbc1cd1923\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+55            android:name="androidx.startup.InitializationProvider"
+55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\MEHEDI\.gradle\caches\transforms-3\c41b4469453a8a9f9613e5cbc1cd1923\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+56            android:authorities="developers.world.voicereader.androidx-startup"
+56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\MEHEDI\.gradle\caches\transforms-3\c41b4469453a8a9f9613e5cbc1cd1923\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+57            android:exported="false" >
+57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\MEHEDI\.gradle\caches\transforms-3\c41b4469453a8a9f9613e5cbc1cd1923\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+58            <meta-data
+58-->[androidx.emoji2:emoji2:1.2.0] C:\Users\MEHEDI\.gradle\caches\transforms-3\c41b4469453a8a9f9613e5cbc1cd1923\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+59                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+59-->[androidx.emoji2:emoji2:1.2.0] C:\Users\MEHEDI\.gradle\caches\transforms-3\c41b4469453a8a9f9613e5cbc1cd1923\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+60                android:value="androidx.startup" />
+60-->[androidx.emoji2:emoji2:1.2.0] C:\Users\MEHEDI\.gradle\caches\transforms-3\c41b4469453a8a9f9613e5cbc1cd1923\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+61            <meta-data
+61-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\MEHEDI\.gradle\caches\transforms-3\528f10946969151ddeecc9c08cbfcbae\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+62                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+62-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\MEHEDI\.gradle\caches\transforms-3\528f10946969151ddeecc9c08cbfcbae\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+63                android:value="androidx.startup" />
+63-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\MEHEDI\.gradle\caches\transforms-3\528f10946969151ddeecc9c08cbfcbae\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+64        </provider>
+65    </application>
+66
+67</manifest>
